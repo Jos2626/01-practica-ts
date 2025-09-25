@@ -5,6 +5,7 @@ let estaFrio: boolean= true; //or estaFrio = true
 console.log(Name);
 console.log(Age);
 console.log(estaFrio);
+
 //funcion flecha
 const promedio =(numeros: number[]): number => {
     let suma = 0;
@@ -14,11 +15,12 @@ const promedio =(numeros: number[]): number => {
     }
 
     return suma / numeros.length
+
 }
+
 
 let promnum = [1,2,3,4,5,6,7,8,9,10];
 console.log("El promedio es", promedio(promnum));
-
 
 
 

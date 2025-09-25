@@ -23,7 +23,7 @@ let persona:{nombre: string, edad: number} = {//objeto
 console.log(persona.nombre);
 console.log(persona.edad);
 
-//const numFlecha = (a: 26): number => a * a;//no funciona 😔
+const numFlecha = (a: 26): number => a * a;//no funciona 😔
 
 
 interface Persona{ //interface se usa para que el cod sea ordenado y cute
@@ -40,3 +40,10 @@ let estudent: Persona = {
 console.log(estudent);
 
 
+let t: [string, number]; //tupla , es igual que al arreglo solo que tiene una long exacta
+t = ["Jos", 17];
+
+console.log(t);
+
+let suma = (a: number, b: number) : number => a + b ;
+console.log(suma(26,29));
